@@ -29,10 +29,10 @@ body {
     border-left-color: lightgreen;
     border-top-color: lightgreen;
     border-radius:50%;
-    animation: rotate 600ms linear infinite;
+    animation: rotation 600ms linear infinite;
 }
 
-@keyframes rotate{
+@keyframes rotation{
     to {
         transform: rotate(1turn);
     }
